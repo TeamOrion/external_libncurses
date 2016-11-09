@@ -29,6 +29,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH) \
 
 LOCAL_MODULE_TAGS := eng
 LOCAL_MODULE := libncurses
+LOCAL_CLANG := false
 
 include $(BUILD_SHARED_LIBRARY)
 
